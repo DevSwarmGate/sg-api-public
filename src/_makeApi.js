@@ -3,6 +3,18 @@ module.exports = function(_this){
         uploadImgBase64:{
             method:'POST',
             urlData:{}
+        },
+        getJSApiConfig:{
+            method:'POST',
+            urlData:{}
+        },
+        getWXOauthCode:{
+            method:'POST',
+            urlData:{}
+        },
+        addAccessStatistics:{
+            method:'POST',
+            urlData:{}
         }
     };
 };
