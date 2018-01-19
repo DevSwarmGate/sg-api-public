@@ -2,7 +2,7 @@ const SGApi_abstract = require('sg-api-abstract'),
     _makeApi = require('./_makeApi');
 
 module.exports = class SGApiPublic extends SGApi_abstract{
-    constructor(token,fid,option){
+    constructor(token,option){
         super(token,'ApiPublic');
         this._config = this._init(option);
     }
